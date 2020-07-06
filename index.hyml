@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>www.soarnotes.com</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="soarnotes.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+</head>
+<body>
+  <html lang="en">
+    <body>
+
+        <header>
+          <!--Navbar-->
+          <nav class="navbar navbar-expand-lg navbar-primary fixed-top scrolling-navbar">
+  <a class="navbar-brand"  id="oko" href="#"><h2>Soarnotes</h2></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="line"></span>
+     <span class="line"></span>
+      <span class="line" ></span>
+  </button>
+  <div class="collapse navbar-collapse " id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active ">
+        <a class="nav-link" href="#"><h4>Home</h4> <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="#"><h4>Blog</h4></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#pricing"><h4>Pricing</h4></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#"><h4>Careers</h4></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+          <!-- Navbar -->
+          <!-- Full Page Intro -->
+          <div class="view">
+            <!-- Mask & flexbox options-->
+            <div class="mask rgba-black-light align-items-center">
+              <!-- Content -->
+              <div class="container">
+                <!--Grid row-->
+                <div class="row">
+                  <!--Grid column-->
+                  <div class="col-md-12 mb-4 white-text text-center oh-ok">
+                    <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s" style="padding:20px"><strong>SOARNOTES</strong></h1>
+                    <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
+                    <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>The library.</strong></h5>
+                    <button type="button" class="btn btn-primary btn-lg download-button"> Get started</button>
+                     <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+                    <button type="button" class="btn btn-outline-primary btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+                  </div>
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+              </div>
+              <!-- Content -->
+            </div>
+            <!-- Mask & flexbox options-->
+          </div>
+          <!-- Full Page Intro -->
+        </header>
+        <!-- Main navigation -->
+        <!--Main Layout-->
+     
+ <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="carousel" data-interval="2500">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-wallet2 " fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path d="M2.5 4l10-3A1.5 1.5 0 0 1 14 2.5v2h-1v-2a.5.5 0 0 0-.5-.5L5.833 4H2.5z"/>
+  <path fill-rule="evenodd" d="M1 5.5A1.5 1.5 0 0 1 2.5 4h11A1.5 1.5 0 0 1 15 5.5v8a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 13.5v-8zM2.5 5a.5.5 0 0 0-.5.5v8a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5v-8a.5.5 0 0 0-.5-.5h-11z"/>
+</svg>
+          <h3 class="feature-title">Saves Money.</h3>
+          <p><strong>One price for all your materials.</strong></p>
+        </div>
+        <div class="carousel-item container-fluid">
+          <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-watch" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M4 14.333v-1.86A5.985 5.985 0 0 1 2 8c0-1.777.772-3.374 2-4.472V1.667C4 .747 4.746 0 5.667 0h4.666C11.253 0 12 .746 12 1.667v1.86A5.985 5.985 0 0 1 14 8a5.985 5.985 0 0 1-2 4.472v1.861c0 .92-.746 1.667-1.667 1.667H5.667C4.747 16 4 15.254 4 14.333zM13 8A5 5 0 1 0 3 8a5 5 0 0 0 10 0z"/>
+  <path d="M13.918 8.993A.502.502 0 0 0 14.5 8.5v-1a.5.5 0 0 0-.582-.493 6.044 6.044 0 0 1 0 1.986z"/>
+  <path fill-rule="evenodd" d="M8 4.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H6a.5.5 0 0 1 0-1h1.5V5a.5.5 0 0 1 .5-.5z"/>
+</svg>
+          <h3 class="feature-title">Saves Time.</h3>
+          <p><strong>Zero Time Wasted Looking For Relevant Materials.</strong></p>
+        </div>
+         <div class="carousel-item container-fluid" >
+         <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-phone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M11 1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+  <path fill-rule="evenodd" d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+</svg>
+          <h3 class="feature-title">Andriod & IOS</h3>
+          <p><strong>Love Soarnotes? Download The App</strong></p>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+<!--pricing section-->
+
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">A Subcription Model Made With You In Mind</h2>
+    <p>Simple and affordable price plans for your and your dog.</p>
+
+    <div class="row">
+
+      <div class="pricing-column col-lg-6 col-md-12">
+        <div class="card">
+          <div class="card-header standard">
+            <h3>STANDARD</h3>
+          </div>
+          <div class="card-body">
+            <h4 class="price-text"> ₦500/Week</h4>
+            <p> Access To All avialable Matherials.</p>
+            <p>24/7 Customer Care Support.</p>
+            <p>Pay As You Need</p>
+            <button class="btn btn-lg btn-block btn-outline-primary" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-6 col-md-12">
+        <div class="card">
+          <div class="card-header premium">
+            <h3>PREMIUM</h3>
+          </div>
+          <div class="card-body">
+            <h4 class="price-text">₦1000/Month</h4>
+             <p> Access To All avialable Matherials.</p>
+            <p>24/7 Customer Care Support.</p>
+            <p>Save ₦1000 </p>
+            <button class="btn btn-lg btn-block btn-outline-success" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+       <div class="pricing-column col-lg-6 col-md-12 ">
+        <div class="card">
+          <div class="card-header silver">
+            <h3>SILVER</h3>
+          </div>
+          <div class="card-body">
+            <h4 class="price-text">₦3000/Term</h4>
+            <p> Access To All avialable Matherials.</p>
+            <p>24/7 Customer Care Support.</p>
+            <p>Save ₦1000 </p>
+            <button class="btn btn-lg btn-block btn-outline-secondary" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="pricing-column col-lg-6  col-md-12 ">
+        <div class="card">
+          <div class="card-header gold">
+            <h3>GOLD</h3>
+          </div>
+          <div class="card-body">
+            <h4 class="price-text">₦6000/Year</h4>
+            <p> Access To All avialable Matherials.</p>
+            <p>24/7 Customer Care Support.</p>
+            <p>Save ₦2000 </p>
+            <button class="btn btn-lg btn-block btn-outline-warning" type="button">Sign Up</button>
+
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </section>
+
+        <!--footer-->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+     <a href=""><i class="social-icon fab fa-facebook-f"></i></a>
+     <a href=""> <i class="social-icon fab fa-twitter"></i></a>
+     <a href=""> <i class="social-icon fab fa-instagram"></i></a>
+     <a href=""> <i class="social-icon fas fa-envelope"></i></a>
+      <p>© Copyright 2020 Soarnotes</p>
+    </div>
+  </footer>
+
+
+    </body>
+</html>
+</body>
+</html>    
+ 
