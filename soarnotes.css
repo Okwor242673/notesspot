@@ -2,7 +2,7 @@ html,
 body,
 header,
 .view {
-  height: 100%;
+  height: 50%;
 }
 
  .view{background-image: url('library2.jpg'); 
@@ -17,7 +17,7 @@ header,
   body,
   header,
   .view {
-    height: 50vh;
+    height: 100vh;
   }
 }
 
