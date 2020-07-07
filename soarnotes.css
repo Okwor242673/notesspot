@@ -1,0 +1,125 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+ .view{background-image: url('library2.jpg'); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center center;
+}
+
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #f4f4f4 !important;
+  }
+}
+
+h1{
+  letter-spacing: 0px;
+  color:#222831;
+  font-size: 70px;
+ }
+
+
+h5 {
+  letter-spacing: 3px;
+  color: #010101;;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+.oh-ok{
+  padding-top: 25%;
+  padding-bottom: 20px;
+}
+ 
+ 
+ .container-fluid{
+  text-align: center;
+  padding: 50px;
+  background-color: #f0f1f3;
+ }
+  
+  .navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color:#428bca;
+    border:none;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 5px;
+    margin-bottom: 0;
+}
+
+#pricing{
+  padding: 50px;
+  text-align: center;
+}
+#testimonials{
+  padding: 70px 85px 0;
+
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 4% 3%;
+}
+
+.standard{
+  background-color:#428bca;
+  color: white;
+}
+.premium{
+  background-color: #5cb85c;
+  color:white;
+}
+.silver{
+  background-color:#868e96;
+  color:white;
+}
+.gold{
+  background-color: #ffc100;
+  color:white;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+.premium-button:hover{
+  background-color: black;
+}
+
+#oko{
+  font-size:20px;
+  font-weight:bolder; 
+  line-height: 30px;
+}
