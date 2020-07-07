@@ -17,7 +17,7 @@ header,
   body,
   header,
   .view {
-    height: 100vh;
+    height: 50vh;
   }
 }
 
@@ -52,7 +52,7 @@ h5 {
   width: 80px;
 }
 .oh-ok{
-  padding-top: 20%;
+  padding-top: 200px;
   
 }
  
