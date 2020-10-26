@@ -87,7 +87,8 @@ h5 {
   text-align: center;
 }
 #testimonials{
-  padding: 70px 85px 0;
+  padding: 70px 85px 0px;
+  margin-bottom: 0px;
 
 }
 .price-text {
@@ -96,7 +97,7 @@ h5 {
 }
 
 .pricing-column {
-  padding: 4% 3%;
+  padding: 4% 20%;
 }
 
 .standard{
@@ -127,3 +128,4 @@ h5 {
   font-weight:bolder; 
   line-height: 30px;
 }
+
