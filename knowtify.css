@@ -1,15 +1,11 @@
-html,
-body,
-header,
-.view {
-  height: 100%;
-}
-
- .view{background-image: url('images/img1.jpg'); 
+body{
+  padding: 0 2rem;
+  background-image: url('images/img1.jpg');
   background-repeat: no-repeat; 
   background-size: cover; 
   background-position: center center;
 }
+nav{
   padding: auto 0px;
 }
 
