@@ -95,7 +95,7 @@ body{
  }
  .text1{
  	color: #b2071d;
- 	font-size: 400%;
+ 	font-size: 300%;
  	font-weight: 700;
  	border-radius: 10px;
  	background:black;
@@ -233,7 +233,7 @@ nav{
 
     .text1{
  	color: #b2071d;
- 	font-size: 250%;
+ 	font-size: 200%;
  	font-weight: 700;
  	border-radius: 10px;
  	background:black;
@@ -245,7 +245,7 @@ nav{
  }
  .text2{
  	color: white;
- 	font-size: 100%
+ 	font-size: 90%
  }
 
 	.continer{
