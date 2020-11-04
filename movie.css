@@ -70,7 +70,7 @@ body{
  	z-index: 1;
  }
  .continer span{
-      text-transform: uppercase;
+      
       display:block;
       width: 100%;
 
@@ -83,7 +83,7 @@ body{
  	background:black;
  	padding: 10px;
  	position: relative;
- 	animation:text 3s 1;
+ 	animation:text 10s 1;
 
 
  }
@@ -95,17 +95,39 @@ body{
 @keyframes text{
 	0%{
 		color:blue;
-		margin-bottom: -45px; 
+	}
+	10%{
+		color: #ee9090;
+	}
+	20%{
+		color: #90eebf;
 	}
 	30%{
 		color: purple;
-		letter-spacing: 15px;
-		margin-bottom: -40px;
-	}
-	85%{
-		letter-spacing: 8px;
-		margin-bottom: -40px;
-	}
+		}
+		40%{
+		color:yellow;
+		}
+		50%{
+		color: indigo;
+		}
+		60%{
+		color: orange;
+		}
+		70%{
+		color:blue-green;
+		}
+	80%{
+		color: violet;
+		}
+		90%{
+		color:#f1a6a6;
+		}
+		90%{
+		color:#f1a6e6;
+		}
+		
+
 }
 
  
@@ -165,6 +187,15 @@ nav{
 	body{
        overflow-x: hidden;
 	}
+	.continer{
+ 	text-align: center;
+ 	position: absolute;
+ 	top:50%;
+ 	left: 50%;
+ 	transform: translate(-50%,-250%);
+ 	z-index: 0;
+
+ }
 		.nav-links{
 		position: absolute;
 		right: 0px;
