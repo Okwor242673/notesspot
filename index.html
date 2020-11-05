@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/65075576ee.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Pacifico&display=swap" rel="stylesheet">
 
     <!-- bootstrap stylesheet link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -20,57 +22,36 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
     <!-- external css link -->
-    <link rel="stylesheet" href="movie.css">
-    <title></title>
-</head>
+    <link rel="stylesheet" href="css.css">
+    <title></title></head>
 <body>
-    <div class="banner-area">
-    	<nav>
-    <div class="logo">
-      <h4>The Movie Spot</h4>
-    </div>
-    <ul class="nav-links">
-      <li>
-        <a href="">Movies</a>
-      </li>
+	<nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#">TMS</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Marvel</a></li>
+                    <li><a href="#">K-Drama</a></li>
+                    <li><a href="#">Tv-Series</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
 
-      <li>
-        <a href="">TV-series</a>
-      </li>
+    <section class="home">
+    </section>
+    <div class="download">
 
-      <li>
-            <a href="">Marvel</a>
-      </li>
-
-      <li>
-        <a href="">K-Drama</a>
-      </li>
-
-      <li>
-        <a href="">Careers</a>
-      </li>
-
-    </ul>
-
-    <div class="burger"> 
-      <div class="line1"></div>
-      <div class="line2"></div>
-      <div class="line3"></div>
-    </div>
-
-
-  </nav>
-  
-    	<div class="continer">
-    		<span class="text1">Movies Spot</span>
-    		<span class="text2">Online Collection Of Movies</span>
-    	</div>
-    </div>
-
-    <!--main area-->
-<div class="download">
-
-    <h2 class="scroll-h1-1">Download Your Favourite Movies<h2>
+    <h1 class="scroll-h1-1">Download Your Favourite Movies<h1>
   <div class="horizontal-slider">
     <div class="slider-container">
       <div class="item">
@@ -91,7 +72,7 @@
     </div>
   </div>
 
-     <h2 class="scroll-h1">Download Your Favourite TV-Series<h2>
+     <h1 class="scroll-h1">Download Your Favourite TV-Series<h1>
   <div class="horizontal-slider">
     <div class="slider-container">
       <div class="item">
@@ -122,16 +103,16 @@
      <a href=""> <i class="social-icon fab fa-instagram"></i></a>
      <a href=""> <i class="social-icon fas fa-envelope"></i></a>
       </div>
-      <p>© Copyright 2020 Movies Spot.</p>
+      <p class="Copyright">© Copyright 2020 Movies Spot.</p>
     </div>
   </div>
 
+<!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="app.js"></script>
 
 
-  
    
- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script type="text/javascript" src="app.js"></script>
+
 </body>
 </html>
